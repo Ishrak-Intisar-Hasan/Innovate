@@ -1,0 +1,411 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+#navbar {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.301);
+}
+#navbar .navbar-nav {
+  gap: 42px;
+  margin-left: 114px;
+}
+#navbar .navbar-nav .nav-link {
+  color: #FFFFFF;
+  transition: all linear 0.3s;
+}
+#navbar .navbar-nav .nav-link:hover {
+  color: #1BBF00;
+}
+#navbar .btn {
+  padding: 5px 14px;
+  background-color: #1BBF00;
+  color: #FFFFFF;
+  border-radius: 25px;
+  margin-left: 113px;
+}
+
+#banner {
+  background-image: url(../images/banner.jpg);
+  width: 100%;
+  height: 1080px;
+  background-repeat: no-repeat;
+}
+#banner .banner__overlay {
+  background-color: rgba(106, 98, 197, 0.7960784314);
+  height: 1080px;
+  padding: 246px 479px;
+}
+#banner .banner__overlay .banner__contents .ban__head {
+  margin-right: 240px;
+}
+#banner .banner__overlay .banner__contents .ban__head h1 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+#banner .banner__overlay .banner__contents .ban__para {
+  margin-top: 30px;
+  margin-right: 230px;
+}
+#banner .banner__overlay .banner__contents .ban__para p {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Paprika", cursive;
+  font-size: 24px;
+  font-weight: 400;
+}
+#banner .banner__overlay .banner__contents .ban__link {
+  margin-top: 50px;
+  margin-left: 260px;
+  display: flex;
+  gap: 28px;
+}
+#banner .banner__overlay .banner__contents .ban__link .ban__link__btn button {
+  padding: 20px 40px;
+  border: 2px solid #1BBF00;
+  background-color: transparent;
+  color: #FFFFFF;
+  border-radius: 50px;
+  transition: all linear 0.3s;
+}
+#banner .banner__overlay .banner__contents .ban__link .ban__link__btn button:hover {
+  border-color: transparent;
+  background-color: #1BBF00;
+}
+
+#work {
+  padding: 100px 0;
+  background-color: #F6F5FF;
+}
+#work .work__contents .row .work__sec .work__info .work__info__head h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #141135;
+}
+#work .work__contents .row .work__sec .work__info .work__info__para {
+  margin-top: 20px;
+}
+#work .work__contents .row .work__sec .work__info .work__info__para p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #141135;
+}
+#work .work__contents .row .work__sec .work__info .work__info__link {
+  margin-top: 56px;
+}
+#work .work__contents .row .work__sec .work__info .work__info__link button {
+  background-color: transparent;
+  border: 2px solid #1BBF00;
+  border-radius: 50px;
+  padding: 20px 40px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  color: #141135;
+  transition: all linear 0.3s;
+}
+#work .work__contents .row .work__sec .work__info .work__info__link button:hover {
+  background-color: #1BBF00;
+  color: #FFFFFF;
+}
+#work .work__contents .row .work__sec .work__card {
+  margin-top: 125px;
+  padding: 48px 36px 49px 37px;
+  width: 369px;
+  background-color: #FFFFFF;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  transition: all linear 0.3s;
+}
+#work .work__contents .row .work__sec .work__card:hover {
+  background-color: #726E9E;
+}
+#work .work__contents .row .work__sec .work__card:hover .work__card__head {
+  color: #FFFFFF;
+}
+#work .work__contents .row .work__sec .work__card:hover .work__card__para {
+  color: #FFFFFF;
+}
+#work .work__contents .row .work__sec .work__card:hover .work__card__link a {
+  color: #FFFFFF;
+}
+#work .work__contents .row .work__sec .work__card .work__card__img {
+  margin-left: 113px;
+}
+#work .work__contents .row .work__sec .work__card .work__card__head {
+  margin-top: 32px;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  color: #141135;
+  text-align: center;
+}
+#work .work__contents .row .work__sec .work__card .work__card__para {
+  margin-top: 32px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Paprika", cursive;
+  color: #141135;
+  text-align: center;
+  color: #726E9E;
+}
+#work .work__contents .row .work__sec .work__card .work__card__link {
+  text-align: center;
+}
+#work .work__contents .row .work__sec .work__card .work__card__link a {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  color: #141135;
+}
+#work .work__contents .row .work__sec .work__card__one {
+  padding: 48px 36px 49px 37px;
+  width: 369px;
+  background-color: #FFFFFF;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  transition: all linear 0.3s;
+}
+#work .work__contents .row .work__sec .work__card__one:hover {
+  background-color: #726E9E;
+}
+#work .work__contents .row .work__sec .work__card__one:hover .work__card__head {
+  color: #FFFFFF;
+}
+#work .work__contents .row .work__sec .work__card__one:hover .work__card__para {
+  color: #FFFFFF;
+}
+#work .work__contents .row .work__sec .work__card__one:hover .work__card__link a {
+  color: #FFFFFF;
+}
+#work .work__contents .row .work__sec .work__card__one .work__card__img {
+  margin-left: 113px;
+}
+#work .work__contents .row .work__sec .work__card__one .work__card__head {
+  margin-top: 32px;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  color: #141135;
+  text-align: center;
+}
+#work .work__contents .row .work__sec .work__card__one .work__card__para {
+  margin-top: 32px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Paprika", cursive;
+  color: #141135;
+  text-align: center;
+  color: #726E9E;
+}
+#work .work__contents .row .work__sec .work__card__one .work__card__link {
+  text-align: center;
+}
+#work .work__contents .row .work__sec .work__card__one .work__card__link a {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  color: #141135;
+}
+#work .work__contents .row .work__sec .work__card__two {
+  margin-top: 25px;
+  padding: 48px 36px 49px 37px;
+  width: 369px;
+  background-color: #FFFFFF;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  transition: all linear 0.3s;
+}
+#work .work__contents .row .work__sec .work__card__two:hover {
+  background-color: #726E9E;
+}
+#work .work__contents .row .work__sec .work__card__two:hover .work__card__head {
+  color: #FFFFFF;
+}
+#work .work__contents .row .work__sec .work__card__two:hover .work__card__para {
+  color: #FFFFFF;
+}
+#work .work__contents .row .work__sec .work__card__two:hover .work__card__link a {
+  color: #FFFFFF;
+}
+#work .work__contents .row .work__sec .work__card__two .work__card__img {
+  margin-left: 113px;
+}
+#work .work__contents .row .work__sec .work__card__two .work__card__head {
+  margin-top: 32px;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  color: #141135;
+  text-align: center;
+}
+#work .work__contents .row .work__sec .work__card__two .work__card__para {
+  margin-top: 32px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Paprika", cursive;
+  color: #141135;
+  text-align: center;
+  color: #726E9E;
+}
+#work .work__contents .row .work__sec .work__card__two .work__card__link {
+  text-align: center;
+}
+#work .work__contents .row .work__sec .work__card__two .work__card__link a {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  color: #141135;
+}
+
+#plan {
+  padding: 100px 0;
+  background-color: #F6F5FF;
+}
+#plan .plan__head {
+  text-align: center;
+}
+#plan .plan__head h3 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  color: #141135;
+}
+#plan .plan__card {
+  padding: 60px 0;
+  margin-top: 64px;
+  background-color: #FFFFFF;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all linear 0.3s;
+}
+#plan .plan__card:hover {
+  background-color: #726E9E;
+}
+#plan .plan__card:hover .plan__card__head {
+  color: #FFFFFF;
+}
+#plan .plan__card:hover .plan__card__para p {
+  color: #E6E5F3;
+}
+#plan .plan__card .plan__card__head {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  color: #141135;
+}
+#plan .plan__card .plan__card__img {
+  margin-top: 26px;
+}
+#plan .plan__card .plan__card__money {
+  margin-top: 20px;
+}
+#plan .plan__card .plan__card__money p {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  font-family: "Open Sans", sans-serif;
+  color: #1BBF00;
+}
+#plan .plan__card .plan__card__para {
+  margin-top: 12px;
+  text-align: center;
+}
+#plan .plan__card .plan__card__para p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Paprika", cursive;
+  color: #726E9E;
+}
+
+#conclusion {
+  padding: 140px 0 80px 0;
+  background-color: #48409C;
+}
+#conclusion .conclusion__contents {
+  display: flex;
+  gap: 90px;
+}
+#conclusion .conclusion__contents .conclusion__info__para {
+  margin-top: 44px;
+  width: 449px;
+}
+#conclusion .conclusion__contents .conclusion__info__para p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  color: #FFFFFF;
+}
+#conclusion .conclusion__contents .conclusion__links .conclusion__links__head {
+  margin-bottom: 48px;
+}
+#conclusion .conclusion__contents .conclusion__links .conclusion__links__head h5 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  color: #FFFFFF;
+}
+#conclusion .conclusion__contents .conclusion__links .conclusion__links__opt {
+  margin-bottom: 20px;
+}
+#conclusion .conclusion__contents .conclusion__links .conclusion__links__opt a {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  color: #FFFFFF;
+}
+
+#footer {
+  background-color: #48409C;
+  padding: 10px 0 40px;
+}
+#footer .footer__contents {
+  display: flex;
+  justify-content: space-between;
+}
+#footer .footer__contents .copyright p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  color: #E6E5F3;
+}
+#footer .footer__contents .privacy__terms {
+  display: flex;
+  gap: 60px;
+}
+#footer .footer__contents .privacy__terms .privacy a {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  color: #E6E5F3;
+}
+#footer .footer__contents .privacy__terms .terms a {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  color: #E6E5F3;
+}/*# sourceMappingURL=style.css.map */
